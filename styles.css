@@ -1,2 +1,16 @@
-
 /* Your CSS Code here. */
+.holder {
+    display: flex;            /* Turn on flexbox */
+    flex-wrap: wrap;          /* Allow items to wrap to next row */
+    justify-content: space-between; /* Items spread across full width */
+    gap: 10px;                /* Optional: consistent spacing between rows */
+}
+
+.item {
+    flex: 0 0 auto;           /* Prevent shrinking (no squashing) */
+    padding: 15px 25px;
+    background: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
